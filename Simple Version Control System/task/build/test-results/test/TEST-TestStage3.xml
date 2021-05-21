@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestStage3" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-21T05:06:38" hostname="C02Y4A4CJG5J.local" time="0.338">
+  <properties/>
+  <testcase name="start" classname="TestStage3" time="0.338"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Add a file to the index.
+The file 'file996.txt' is tracked.
+Tracked files:
+file996.txt
+The file 'file843.txt' is tracked.
+Tracked files:
+file996.txt
+file843.txt
+Can't found 'file194.txt'.
+?[1;31m
+Start test 2?[0m
+The username is TestUserName.
+The file 'first_file.txt' is tracked.
+The file 'second_file.txt' is tracked.
+Changes are committed.
+Changes are committed.
+Commit id was not passed.
+Commit does not exist.
+commit 60002df775843f1830f9c0ee569d039573626e9d5f9f7528cc05c08089261370
+Author: TestUserName
+Second commit
+
+commit 8af39a350308db2f5c1f997fbbbd8ef5e462f885ef4a0817af5aa58db95b76fe
+Author: TestUserName
+First commit
+Switched to commit 8af39a350308db2f5c1f997fbbbd8ef5e462f885ef4a0817af5aa58db95b76fe.
+?[1;31m
+Start test 3?[0m
+The username is TestUserName.
+The file 'first_file.txt' is tracked.
+The file 'second_file.txt' is tracked.
+No commits yet.
+Message was not passed.
+Changes are committed.
+commit 53ecdd97019f0bf545a3795faa64a82e80c9b2cd8d1fb0ab411ed64b4d53bf19
+Author: TestUserName
+Test message
+Nothing to commit.
+Changes are committed.
+commit 829ba6ef7bd62b5471480fb25623c003bab03bb134cd32efb4b46cc1af0072ae
+Author: TestUserName
+Test message3
+
+commit 53ecdd97019f0bf545a3795faa64a82e80c9b2cd8d1fb0ab411ed64b4d53bf19
+Author: TestUserName
+Test message
+?[1;31m
+Start test 4?[0m
+Please, tell me who you are.
+The username is Max.
+The username is Max.
+The username is John.
+The username is John.
+?[1;31m
+Start test 5?[0m
+These are SVCS commands:
+config        Get and set a username.
+add        Add a file to the index.
+log        Show commit logs.
+commit        Save changes.
+checkout        Restore a file.
+These are SVCS commands:
+config        Get and set a username.
+add        Add a file to the index.
+log        Show commit logs.
+commit        Save changes.
+checkout        Restore a file.
+?[1;31m
+Start test 6?[0m
+'wrongArg457' is not a SVCS command.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
